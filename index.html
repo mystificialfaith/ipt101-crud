@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Midterm Activity 3</title>
+
+<!-- LINK TO CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Interactive Student Form</h2>
+
+<form id="studentForm">
+    <!-- ID Number (edit only) -->
+    <input type="hidden" id="idNumber">
+
+    <label>Last Name</label>
+    <input type="text" id="lastName">
+
+    <label>First Name</label>
+    <input type="text" id="firstName">
+
+    <label>Middle Name</label>
+    <input type="text" id="middleName" placeholder="Optional">
+
+    <label>Birthdate</label>
+    <input type="date" id="birthdate">
+
+    <label>Course</label>
+    <select id="course">
+        <option value="">Select Course</option>
+        <option>BSAB</option>
+        <option>BSIT</option>
+        <option>BSHM</option>
+        <option>BSTM</option>
+        <option>BSCM</option>
+        <option>BSM</option>
+    </select>
+
+    <label>Year Level</label>
+    <input type="number" id="yearLevel">
+
+    <button type="submit" id="btn">Add Student</button>
+</form>
+
+<table>
+<thead>
+<tr>
+    <th>ID</th>
+    <th>Last Name</th>
+    <th>First Name</th>
+    <th>Middle Name</th>
+    <th>Birthdate</th>
+    <th>Course</th>
+    <th>Year Level</th>
+    <th>Actions</th>
+</tr>
+</thead>
+<tbody id="studentTable"></tbody>
+</table>
+
+<!-- LINK TO JS -->
+<script src="script.js"></script>
+</body>
+</html>
+
+
+

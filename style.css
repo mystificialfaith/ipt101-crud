@@ -1,0 +1,97 @@
+body {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    background: linear-gradient(
+        135deg,
+        #0f0f0f,
+        #1c1c1c,
+        #f5f1ef,
+        #f2e8e8
+    );
+    padding: 20px;
+    color: #2b2b2b;
+}
+
+h2 {
+    text-align: center;
+    color: #7a1e2d;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.92);
+    padding: 30px;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.6),
+        0 0 0 1px rgba(122, 30, 45, 0.25);
+    border: 1px solid #e0c7cc;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: 500;
+    color: #5a1a25;
+    letter-spacing: 1px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    background: #faf8f7;
+    border: 1px solid #c9a9af;
+    border-radius: 6px;
+    color: #2b2b2b;
+}
+
+button {
+    margin-top: 24px;
+    background: linear-gradient(135deg, #8b1e2d, #3b0812);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 12px;
+}
+
+table {
+    width: 90%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.94);
+}
+
+th, td {
+    border: 1px solid #d9bcc2;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: linear-gradient(135deg, #7a1e2d, #2a060d);
+    color: #ffffff;
+}
+
+.edit {
+    background: #a13b4b;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 14px;
+    border: none;
+}
+
+.delete {
+    background: #2a060d;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 14px;
+    border: none;
+}
